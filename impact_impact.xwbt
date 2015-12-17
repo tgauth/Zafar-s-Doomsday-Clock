@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=X:\My Documents\Digital Logic Labs\DoomsdayClock\impact.xsl
+OUTFILE=X:\My Documents\Digital Logic Labs\DoomsdayClock\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=X:\My Documents\Digital Logic Labs\DoomsdayClock
+LICENSE=iMPACT
+USER_INFO=iMPACT
