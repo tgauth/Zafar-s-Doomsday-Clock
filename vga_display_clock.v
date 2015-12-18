@@ -136,16 +136,9 @@ module vga_display_clock(rst, clk, R, G, B, HS, VS, AN, seven, mode, buttonsInpu
 			B = 0;
 		end
 		else begin	// if you are outside the valid region
-			if(alarm) begin
-				R = (clk_1Hz) ? 3'b111:0;
-				G = (clk_1Hz) ? 3'b111:0;
-				B = (clk_1Hz) ? 2'b11:0;
-			end
-			else begin
 				R = 0;
 				G = 0;
 				B = 0;
-			end
 		end
 	end
 
